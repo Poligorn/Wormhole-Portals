@@ -1,0 +1,64 @@
+#Maximum number of active portal pairs (Overworld + Nether counts as one)
+# Default: 10
+# Range: > 1
+max_active_portals = 10
+#Minimum lifetime of a portal pair in ticks
+# Default: 1200
+# Range: > 1
+min_timer_ticks = 1200
+#Maximum lifetime of a portal pair in ticks
+# Default: 72000
+# Range: > 1
+max_timer_ticks = 72000
+#Minimum number of entries a portal pair can have
+# Default: 1
+# Range: > 1
+min_jumps = 1
+#Maximum number of entries a portal pair can have
+# Default: 10
+# Range: > 1
+max_jumps = 10
+#Outer frame width in blocks (vanilla nether portal is 4)
+# Default: 4
+# Range: 3 ~ 32
+portal_width = 4
+#Outer frame height in blocks (vanilla nether portal is 5)
+# Default: 5
+# Range: 4 ~ 32
+portal_height = 5
+#Minimum ticks between spawn rolls for each player (default 432000 = 6 hours)
+# Default: 432000
+# Range: > 20
+spawn_check_min_ticks = 432000
+#Maximum ticks between spawn rolls for each player (default 864000 = 12 hours)
+# Default: 864000
+# Range: > 20
+spawn_check_max_ticks = 864000
+#Chance (0-100) that a portal pair spawns near a player when their interval elapses
+# Default: 10
+# Range: 0 ~ 100
+spawn_chance_percent = 10
+#Chance (0-100) that a successful spawn is in mid-air instead of on the ground
+# Default: 5
+# Range: 0 ~ 100
+air_spawn_chance_percent = 5
+#Minimum distance from a player to a newly spawned portal
+# Default: 500
+# Range: > 0
+min_spawn_distance = 500
+#Maximum distance from a player to a newly spawned portal
+# Default: 2000
+# Range: > 10
+max_spawn_distance = 2000
+#Enable the portal radar item
+radar_enabled = true
+#Enable the portal detector item
+detector_enabled = true
+#Blaze powder consumed when charging the radar
+# Default: 1
+# Range: 0 ~ 64
+radar_blaze_powder_cost = 1
+#Radar runtime added per successful charge (default 6000 = 5 minutes)
+# Default: 6000
+# Range: > 1
+radar_duration_ticks = 6000

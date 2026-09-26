@@ -1,0 +1,18 @@
+{
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "particle": "eveportalnether:block/wormhole_center",
+    "portal": "eveportalnether:block/wormhole_center"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 8],
+      "to": [16, 16, 8],
+      "shade": false,
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#portal", "tintindex": 0 },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#portal", "tintindex": 0 }
+      }
+    }
+  ]
+}

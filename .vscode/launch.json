@@ -1,0 +1,93 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - Eve Portal Nether",
+        "order": 0
+      },
+      "projectName": "Eve Portal Nether",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@/Users/poligorn/Проекты/ASI Project/Minecraft Mods/Eve Portal Nether/build/moddev/clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@/Users/poligorn/Проекты/ASI Project/Minecraft Mods/Eve Portal Nether/build/moddev/clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003deveportalnether%%/Users/poligorn/Проекты/ASI Project/Minecraft Mods/Eve Portal Nether/bin/main"
+      ],
+      "cwd": "${workspaceFolder}/run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Data",
+      "presentation": {
+        "group": "Mod Development - Eve Portal Nether",
+        "order": 1
+      },
+      "projectName": "Eve Portal Nether",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@/Users/poligorn/Проекты/ASI Project/Minecraft Mods/Eve Portal Nether/build/moddev/dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@/Users/poligorn/Проекты/ASI Project/Minecraft Mods/Eve Portal Nether/build/moddev/dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003deveportalnether%%/Users/poligorn/Проекты/ASI Project/Minecraft Mods/Eve Portal Nether/bin/main"
+      ],
+      "cwd": "${workspaceFolder}/run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - Eve Portal Nether",
+        "order": 2
+      },
+      "projectName": "Eve Portal Nether",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@/Users/poligorn/Проекты/ASI Project/Minecraft Mods/Eve Portal Nether/build/moddev/gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@/Users/poligorn/Проекты/ASI Project/Minecraft Mods/Eve Portal Nether/build/moddev/gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003deveportalnether%%/Users/poligorn/Проекты/ASI Project/Minecraft Mods/Eve Portal Nether/bin/main"
+      ],
+      "cwd": "${workspaceFolder}/run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - Eve Portal Nether",
+        "order": 3
+      },
+      "projectName": "Eve Portal Nether",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@/Users/poligorn/Проекты/ASI Project/Minecraft Mods/Eve Portal Nether/build/moddev/serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@/Users/poligorn/Проекты/ASI Project/Minecraft Mods/Eve Portal Nether/build/moddev/serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003deveportalnether%%/Users/poligorn/Проекты/ASI Project/Minecraft Mods/Eve Portal Nether/bin/main"
+      ],
+      "cwd": "${workspaceFolder}/run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}

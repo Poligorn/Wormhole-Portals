@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "create"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " P ",
+    "GCG",
+    "GRG"
+  ],
+  "key": {
+    "P": {
+      "item": "eveportalnether:portal_shard"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "R": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "id": "eveportalnether:portal_radar",
+    "count": 1
+  }
+}

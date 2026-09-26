@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "eveportalnether:wormhole"
+    },
+    "title": {
+      "translate": "advancements.eveportalnether.root.title"
+    },
+    "description": {
+      "translate": "advancements.eveportalnether.root.description"
+    },
+    "frame": "task",
+    "background": "eveportalnether:textures/block/wormhole_frame.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

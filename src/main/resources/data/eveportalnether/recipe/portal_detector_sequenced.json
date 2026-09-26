@@ -1,0 +1,84 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:brass_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "eveportalnether:portal_detector"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "eveportalnether:incomplete_portal_detector"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "eveportalnether:incomplete_portal_detector"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "eveportalnether:incomplete_portal_detector"
+        },
+        {
+          "item": "minecraft:amethyst_shard"
+        }
+      ],
+      "results": [
+        {
+          "id": "eveportalnether:incomplete_portal_detector"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "eveportalnether:incomplete_portal_detector"
+        },
+        {
+          "item": "minecraft:spyglass"
+        }
+      ],
+      "results": [
+        {
+          "id": "eveportalnether:incomplete_portal_detector"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "eveportalnether:incomplete_portal_detector"
+        }
+      ],
+      "results": [
+        {
+          "id": "eveportalnether:incomplete_portal_detector"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "eveportalnether:incomplete_portal_detector"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "multipart": [
+    {
+      "when": { "frame": "true" },
+      "apply": { "model": "eveportalnether:block/wormhole_frame" }
+    },
+    {
+      "when": { "frame": "false", "axis": "z" },
+      "apply": { "model": "eveportalnether:block/wormhole_center" }
+    },
+    {
+      "when": { "frame": "false", "axis": "x" },
+      "apply": { "model": "eveportalnether:block/wormhole_center", "y": 90 }
+    }
+  ]
+}

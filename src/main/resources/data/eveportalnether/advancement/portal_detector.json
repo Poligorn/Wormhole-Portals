@@ -1,0 +1,30 @@
+{
+  "parent": "eveportalnether:root",
+  "display": {
+    "icon": {
+      "id": "eveportalnether:portal_detector"
+    },
+    "title": {
+      "translate": "advancements.eveportalnether.portal_detector.title"
+    },
+    "description": {
+      "translate": "advancements.eveportalnether.portal_detector.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "i": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "eveportalnether:portal_detector"
+          }
+        ]
+      }
+    }
+  }
+}

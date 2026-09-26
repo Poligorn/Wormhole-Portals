@@ -1,0 +1,26 @@
+{
+  "parent": "eveportalnether:portal_detector",
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "advancements.eveportalnether.decrypt.title"
+    },
+    "description": {
+      "translate": "advancements.eveportalnether.decrypt.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "e": {
+      "trigger": "eveportalnether:wormhole",
+      "conditions": {
+        "event": "decrypt"
+      }
+    }
+  }
+}

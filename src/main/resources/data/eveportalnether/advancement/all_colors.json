@@ -1,0 +1,77 @@
+{
+  "parent": "eveportalnether:travel",
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_cluster"
+    },
+    "title": {
+      "translate": "advancements.eveportalnether.all_colors.title"
+    },
+    "description": {
+      "translate": "advancements.eveportalnether.all_colors.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "red": {
+      "trigger": "eveportalnether:wormhole",
+      "conditions": {
+        "event": "travel_red"
+      }
+    },
+    "orange": {
+      "trigger": "eveportalnether:wormhole",
+      "conditions": {
+        "event": "travel_orange"
+      }
+    },
+    "yellow": {
+      "trigger": "eveportalnether:wormhole",
+      "conditions": {
+        "event": "travel_yellow"
+      }
+    },
+    "green": {
+      "trigger": "eveportalnether:wormhole",
+      "conditions": {
+        "event": "travel_green"
+      }
+    },
+    "cyan": {
+      "trigger": "eveportalnether:wormhole",
+      "conditions": {
+        "event": "travel_cyan"
+      }
+    },
+    "blue": {
+      "trigger": "eveportalnether:wormhole",
+      "conditions": {
+        "event": "travel_blue"
+      }
+    },
+    "violet": {
+      "trigger": "eveportalnether:wormhole",
+      "conditions": {
+        "event": "travel_violet"
+      }
+    },
+    "pink": {
+      "trigger": "eveportalnether:wormhole",
+      "conditions": {
+        "event": "travel_pink"
+      }
+    },
+    "white": {
+      "trigger": "eveportalnether:wormhole",
+      "conditions": {
+        "event": "travel_white"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

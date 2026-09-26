@@ -1,0 +1,26 @@
+{
+  "parent": "eveportalnether:travel",
+  "display": {
+    "icon": {
+      "id": "minecraft:respawn_anchor"
+    },
+    "title": {
+      "translate": "advancements.eveportalnether.return_locked.title"
+    },
+    "description": {
+      "translate": "advancements.eveportalnether.return_locked.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "e": {
+      "trigger": "eveportalnether:wormhole",
+      "conditions": {
+        "event": "return_locked"
+      }
+    }
+  }
+}

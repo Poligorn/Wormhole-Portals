@@ -1,0 +1,26 @@
+{
+  "parent": "eveportalnether:travel",
+  "display": {
+    "icon": {
+      "id": "minecraft:carved_pumpkin"
+    },
+    "title": {
+      "translate": "advancements.eveportalnether.anonymous.title"
+    },
+    "description": {
+      "translate": "advancements.eveportalnether.anonymous.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "e": {
+      "trigger": "eveportalnether:wormhole",
+      "conditions": {
+        "event": "anonymous"
+      }
+    }
+  }
+}

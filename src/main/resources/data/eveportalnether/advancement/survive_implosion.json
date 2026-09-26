@@ -1,0 +1,29 @@
+{
+  "parent": "eveportalnether:witness_opening",
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "advancements.eveportalnether.survive_implosion.title"
+    },
+    "description": {
+      "translate": "advancements.eveportalnether.survive_implosion.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "e": {
+      "trigger": "eveportalnether:wormhole",
+      "conditions": {
+        "event": "survive_implosion"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

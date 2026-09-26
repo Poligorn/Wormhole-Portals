@@ -1,0 +1,100 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:brass_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "eveportalnether:portal_radar"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "eveportalnether:incomplete_portal_radar"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "id": "eveportalnether:incomplete_portal_radar"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "eveportalnether:incomplete_portal_radar"
+        },
+        {
+          "item": "eveportalnether:portal_shard"
+        }
+      ],
+      "results": [
+        {
+          "id": "eveportalnether:incomplete_portal_radar"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "eveportalnether:incomplete_portal_radar"
+        },
+        {
+          "item": "minecraft:compass"
+        }
+      ],
+      "results": [
+        {
+          "id": "eveportalnether:incomplete_portal_radar"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "eveportalnether:incomplete_portal_radar"
+        },
+        {
+          "item": "minecraft:blaze_rod"
+        }
+      ],
+      "results": [
+        {
+          "id": "eveportalnether:incomplete_portal_radar"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "eveportalnether:incomplete_portal_radar"
+        }
+      ],
+      "results": [
+        {
+          "id": "eveportalnether:incomplete_portal_radar"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "eveportalnether:incomplete_portal_radar"
+  }
+}

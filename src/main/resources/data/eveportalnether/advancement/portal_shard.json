@@ -1,0 +1,30 @@
+{
+  "parent": "eveportalnether:root",
+  "display": {
+    "icon": {
+      "id": "eveportalnether:portal_shard"
+    },
+    "title": {
+      "translate": "advancements.eveportalnether.portal_shard.title"
+    },
+    "description": {
+      "translate": "advancements.eveportalnether.portal_shard.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "i": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "eveportalnether:portal_shard"
+          }
+        ]
+      }
+    }
+  }
+}

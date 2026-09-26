@@ -1,0 +1,80 @@
+{
+  "radar.charge": {
+    "subtitle": "subtitles.eveportalnether.radar.charge",
+    "sounds": [
+      { "name": "minecraft:block.beacon.activate", "type": "event" }
+    ]
+  },
+  "radar.empty": {
+    "subtitle": "subtitles.eveportalnether.radar.empty",
+    "sounds": [
+      { "name": "minecraft:block.fire.extinguish", "type": "event" }
+    ]
+  },
+  "radar.ping": {
+    "subtitle": "subtitles.eveportalnether.radar.ping",
+    "sounds": [
+      { "name": "minecraft:block.amethyst_block.chime", "type": "event" }
+    ]
+  },
+  "detector.use": {
+    "subtitle": "subtitles.eveportalnether.detector.use",
+    "sounds": [
+      { "name": "minecraft:item.lodestone_compass.lock", "type": "event" }
+    ]
+  },
+  "detector.click": {
+    "subtitle": "subtitles.eveportalnether.detector.click",
+    "sounds": [
+      { "name": "minecraft:block.note_block.hat", "type": "event" }
+    ]
+  },
+  "portal.open": {
+    "subtitle": "subtitles.eveportalnether.portal.open",
+    "sounds": [
+      { "name": "minecraft:block.end_portal.spawn", "type": "event" }
+    ]
+  },
+  "portal.close": {
+    "subtitle": "subtitles.eveportalnether.portal.close",
+    "sounds": [
+      { "name": "minecraft:block.ender_chest.close", "type": "event" }
+    ]
+  },
+  "portal.travel": {
+    "subtitle": "subtitles.eveportalnether.portal.travel",
+    "sounds": [
+      { "name": "minecraft:block.portal.travel", "type": "event" }
+    ]
+  },
+  "portal.warning": {
+    "subtitle": "subtitles.eveportalnether.portal.warning",
+    "sounds": [
+      { "name": "minecraft:block.respawn_anchor.charge", "type": "event" }
+    ]
+  },
+  "portal.implode": {
+    "subtitle": "subtitles.eveportalnether.portal.implode",
+    "sounds": [
+      { "name": "minecraft:entity.warden.sonic_boom", "type": "event" }
+    ]
+  },
+  "portal.charge": {
+    "subtitle": "subtitles.eveportalnether.portal.charge",
+    "sounds": [
+      { "name": "minecraft:block.portal.trigger", "type": "event" }
+    ]
+  },
+  "portal.rumble": {
+    "subtitle": "subtitles.eveportalnether.portal.rumble",
+    "sounds": [
+      { "name": "minecraft:entity.lightning_bolt.thunder", "type": "event" }
+    ]
+  },
+  "portal.crackle": {
+    "subtitle": "subtitles.eveportalnether.portal.crackle",
+    "sounds": [
+      { "name": "minecraft:block.amethyst_block.resonate", "type": "event" }
+    ]
+  }
+}

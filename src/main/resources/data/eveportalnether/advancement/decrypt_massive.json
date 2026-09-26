@@ -1,0 +1,29 @@
+{
+  "parent": "eveportalnether:decrypt",
+  "display": {
+    "icon": {
+      "id": "minecraft:crying_obsidian"
+    },
+    "title": {
+      "translate": "advancements.eveportalnether.decrypt_massive.title"
+    },
+    "description": {
+      "translate": "advancements.eveportalnether.decrypt_massive.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "e": {
+      "trigger": "eveportalnether:wormhole",
+      "conditions": {
+        "event": "decrypt_massive"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

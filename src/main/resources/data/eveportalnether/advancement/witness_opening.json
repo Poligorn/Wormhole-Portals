@@ -1,0 +1,26 @@
+{
+  "parent": "eveportalnether:rumble",
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate": "advancements.eveportalnether.witness_opening.title"
+    },
+    "description": {
+      "translate": "advancements.eveportalnether.witness_opening.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "e": {
+      "trigger": "eveportalnether:wormhole",
+      "conditions": {
+        "event": "witness_opening"
+      }
+    }
+  }
+}

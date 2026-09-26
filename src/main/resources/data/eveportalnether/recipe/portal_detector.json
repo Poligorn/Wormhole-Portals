@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:not", "value": { "type": "neoforge:mod_loaded", "modid": "create" } }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " A ",
+    "GSG",
+    " D "
+  ],
+  "key": {
+    "A": { "item": "minecraft:amethyst_shard" },
+    "G": { "item": "minecraft:gold_ingot" },
+    "S": { "item": "minecraft:spyglass" },
+    "D": { "item": "minecraft:redstone" }
+  },
+  "result": { "id": "eveportalnether:portal_detector", "count": 1 }
+}
