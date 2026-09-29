@@ -11,11 +11,6 @@ Nether portals become **temporary wormholes**, inspired by EVE Online.
 - In the Nether, players are **anonymous**: no name tags, and `??_041`-style IDs in chat and tab.
 - Optional **Create** integration: with Create installed, both tools are made on a sequenced assembly line.
 
-## Документация
-
-- [docs/GDD.md](docs/GDD.md) — геймдизайн, история версий, roadmap.
-- [docs/DOCUMENTATION.md](docs/DOCUMENTATION.md) — устройство кода и логика работы.
-
 ## Сборка
 
 ```bash
